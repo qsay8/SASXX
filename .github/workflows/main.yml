@@ -1,6 +1,6 @@
 name: Run SSHX in CI
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   sshx-debug:
